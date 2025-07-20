@@ -1,4 +1,3 @@
-# --- 1. Defina os pontos de operação aqui ---
 # Ponto A: (entrada, saida)
 v1a, v2a = 100*0.025, 0.3
 # Ponto B: (entrada, saida)
