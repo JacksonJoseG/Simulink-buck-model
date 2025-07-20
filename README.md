@@ -101,8 +101,12 @@ $C(z) = \frac{0.0413z^2 - 0.0739z + 0.0357}{z^2 - z}$
 **Difference Equation for Implementation:**
 $u[k] = u[k-1] + 0.0413e[k] - 0.0739e[k-1] + 0.0357e[k-2]$
 
-**Closed-Loop System Response (Realistic Simulation):**
+**Closed-Loop System Simulink Design (Realistic Simulation):**
 The final model, including the sensor and ADC, demonstrated that the controller is capable of regulating the output voltage at 24V in a stable manner.
+
+![Realistic Simulation](./img/realistic_simulation.png)
+
+**Closed-Loop System Response (Realistic Simulation):**
 
 ![Realistic Simulation Response](./img/realistic_simulation_response.png)
 
